@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "626027253664",
+    "firebase_url": "https://momboss-3fdb5.firebaseio.com",
+    "project_id": "momboss-3fdb5",
+    "storage_bucket": "momboss-3fdb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626027253664:android:fe5946c50fec262c259ec5",
+        "android_client_info": {
+          "package_name": "com.momboss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626027253664-uomvo0frirkvqnupd892p1bldpnfm33t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkx-QwplKIxONdl3Rrk1t8GDZR0gkRx7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626027253664-uomvo0frirkvqnupd892p1bldpnfm33t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "626027253664-qa4mfbu55s8vei7iqan1esuog2g1t1e4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.momboss"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
