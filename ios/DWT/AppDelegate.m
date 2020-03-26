@@ -14,6 +14,7 @@
 #import <RNGoogleSignin/RNGoogleSignin.h>
 #import "RNFirebaseNotifications.h"
 #import "RNFirebaseMessaging.h"
+#import <React/RCTLinkingManager.h>
 
 @import GoogleMobileAds;
 @import Firebase;
