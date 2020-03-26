@@ -23,7 +23,7 @@
 		4D2E3BA2D8BD41509FC8333B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E71AAA54E79A4A83A626EEAD /* Foundation.ttf */; };
 		4F576506CAA14B11A64318BD /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD60458F0C764F12850DFABC /* FontAwesome.ttf */; };
 		529C5A0C1D44498AAB892C9F /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95BF8A7C63814DF09BB6D600 /* Montserrat-SemiBold.ttf */; };
-		57DB9CEE509ADEB301070C55 /* libPods-DWT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C76196D0FB62EC759433F2A /* libPods-DWT.a */; };
+		57DB9CEE509ADEB301070C55 /* libPods-MomBoss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C76196D0FB62EC759433F2A /* libPods-MomBoss.a */; };
 		580C708DC23A47AB806854BF /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16F6F2C800DE4F2A959326DE /* Zocial.ttf */; };
 		592957E39E7C4AF9A38FF308 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C05A1FFE1AE4F50BE609D46 /* MaterialCommunityIcons.ttf */; };
 		7103D68EB78A407A9CD4994D /* OpenSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18B2516D710A4DE48D431185 /* OpenSans.ttf */; };
@@ -341,19 +341,19 @@
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MomBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DWT/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DWT/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MomBoss/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MomBoss/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DWT/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DWT/main.m; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MomBoss/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MomBoss/main.m; sourceTree = "<group>"; };
 		13E1067604334BADAE245FB8 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		16F6F2C800DE4F2A959326DE /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		18914F0F237038860032D825 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		189497F0236AABDD00A61631 /* DWT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DWT-Bridging-Header.h"; sourceTree = "<group>"; };
+		189497F0236AABDD00A61631 /* MomBoss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MomBoss-Bridging-Header.h"; sourceTree = "<group>"; };
 		189497F1236AABDE00A61631 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		18B2516D710A4DE48D431185 /* OpenSans.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = OpenSans.ttf; path = ../res/fonts/OpenSans.ttf; sourceTree = "<group>"; };
-		18F2EA14237045A300F5DDC0 /* DWT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = DWT.entitlements; path = DWT/DWT.entitlements; sourceTree = "<group>"; };
+		18F2EA14237045A300F5DDC0 /* MomBoss.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MomBoss.entitlements; path = MomBoss/MomBoss.entitlements; sourceTree = "<group>"; };
 		1C25F3CD2150FF6A0000BF77 /* ART.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ART.xcodeproj; path = "../node_modules/react-native/Libraries/ART/ART.xcodeproj"; sourceTree = "<group>"; };
 		1C654469217D8EB5008A4E56 /* libQBImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libQBImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C6544E8217D9156008A4E56 /* libGoogle-Maps-iOS-Utils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libGoogle-Maps-iOS-Utils.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,15 +368,15 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8A4DCCD357A44B898B9D929D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		8C76196D0FB62EC759433F2A /* libPods-DWT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DWT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C76196D0FB62EC759433F2A /* libPods-MomBoss.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MomBoss.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BF8A7C63814DF09BB6D600 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../res/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		96962EA122E1EE00002A2402 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		96F25E762281792C00905477 /* liblottie-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FD6CC7223299E30061DD1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A6E32521A01F9F914EEF5EDC /* Pods-DWT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWT.release.xcconfig"; path = "Pods/Target Support Files/Pods-DWT/Pods-DWT.release.xcconfig"; sourceTree = "<group>"; };
+		A6E32521A01F9F914EEF5EDC /* Pods-MomBoss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomBoss.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomBoss/Pods-MomBoss.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AFB1530767744F699BFFBB67 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		B2470B4BE25FB729AF8BDD93 /* Pods-DWT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DWT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DWT/Pods-DWT.debug.xcconfig"; sourceTree = "<group>"; };
+		B2470B4BE25FB729AF8BDD93 /* Pods-MomBoss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomBoss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MomBoss/Pods-MomBoss.debug.xcconfig"; sourceTree = "<group>"; };
 		B39DC9DD74B9406E8D570278 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		CA944715CEE444D2B23E1454 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		CD60458F0C764F12850DFABC /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
@@ -393,7 +393,7 @@
 				96F25E772281792C00905477 /* liblottie-ios.a in Frameworks */,
 				1C6544E9217D9156008A4E56 /* libGoogle-Maps-iOS-Utils.a in Frameworks */,
 				1C65446A217D8EB5008A4E56 /* libQBImagePickerController.a in Frameworks */,
-				57DB9CEE509ADEB301070C55 /* libPods-DWT.a in Frameworks */,
+				57DB9CEE509ADEB301070C55 /* libPods-MomBoss.a in Frameworks */,
 				96962EA222E1EE00002A2402 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,10 +480,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* DWT */ = {
+		13B07FAE1A68108700A75B9A /* MomBoss */ = {
 			isa = PBXGroup;
 			children = (
-				18F2EA14237045A300F5DDC0 /* DWT.entitlements */,
+				18F2EA14237045A300F5DDC0 /* MomBoss.entitlements */,
 				18914F0F237038860032D825 /* GoogleService-Info.plist */,
 				96FD6CC7223299E30061DD1B /* Images.xcassets */,
 				1CF7E28B2182ED75005708AF /* GSOLD.plist */,
@@ -494,9 +494,9 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				189497F1236AABDE00A61631 /* File.swift */,
-				189497F0236AABDD00A61631 /* DWT-Bridging-Header.h */,
+				189497F0236AABDD00A61631 /* MomBoss-Bridging-Header.h */,
 			);
-			name = DWT;
+			name = MomBoss;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -553,7 +553,7 @@
 				1C6544E8217D9156008A4E56 /* libGoogle-Maps-iOS-Utils.a */,
 				1C654469217D8EB5008A4E56 /* libQBImagePickerController.a */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				8C76196D0FB62EC759433F2A /* libPods-DWT.a */,
+				8C76196D0FB62EC759433F2A /* libPods-MomBoss.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -561,8 +561,8 @@
 		470713FA8E938D8948E52C2D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2470B4BE25FB729AF8BDD93 /* Pods-DWT.debug.xcconfig */,
-				A6E32521A01F9F914EEF5EDC /* Pods-DWT.release.xcconfig */,
+				B2470B4BE25FB729AF8BDD93 /* Pods-MomBoss.debug.xcconfig */,
+				A6E32521A01F9F914EEF5EDC /* Pods-MomBoss.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -643,7 +643,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* DWT */,
+				13B07FAE1A68108700A75B9A /* MomBoss */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DWTTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -677,9 +677,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* DWT */ = {
+		13B07F861A680F5B00A75B9A /* MomBoss */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DWT" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MomBoss" */;
 			buildPhases = (
 				3FE8B27058A763247A06EE72 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -693,7 +693,7 @@
 			);
 			dependencies = (
 			);
-			name = DWT;
+			name = MomBoss;
 			productName = "Hello World";
 			productReference = 13B07F961A680F5B00A75B9A /* MomBoss.app */;
 			productType = "com.apple.product-type.application";
@@ -725,7 +725,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DWT" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MomBoss" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -793,7 +793,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* DWT */,
+				13B07F861A680F5B00A75B9A /* MomBoss */,
 			);
 		};
 /* End PBXProject section */
@@ -1127,7 +1127,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DWT/Pods-DWT-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-MomBoss/Pods-MomBoss-resources.sh",
 				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
@@ -1180,7 +1180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DWT/Pods-DWT-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MomBoss/Pods-MomBoss-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3FE8B27058A763247A06EE72 /* [CP] Check Pods Manifest.lock */ = {
@@ -1194,7 +1194,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DWT-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MomBoss-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1223,7 +1223,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = DWT;
+			path = MomBoss;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1231,12 +1231,12 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2470B4BE25FB729AF8BDD93 /* Pods-DWT.debug.xcconfig */;
+			baseConfigurationReference = B2470B4BE25FB729AF8BDD93 /* Pods-MomBoss.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = DWT/DWT.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MomBoss/MomBoss.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1256,7 +1256,7 @@
 					"$(SRCROOT)/../node_modules/react-native-facebook-login/RCTFBLogin/**",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
-				INFOPLIST_FILE = DWT/Info.plist;
+				INFOPLIST_FILE = MomBoss/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -1266,11 +1266,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scriptsbundle.DWT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scriptsbundle.dwt;
 				PRODUCT_NAME = MomBoss;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = DWTDevelopment;
-				SWIFT_OBJC_BRIDGING_HEADER = "DWT-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MomBoss-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1280,12 +1280,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6E32521A01F9F914EEF5EDC /* Pods-DWT.release.xcconfig */;
+			baseConfigurationReference = A6E32521A01F9F914EEF5EDC /* Pods-MomBoss.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = DWT/DWT.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MomBoss/MomBoss.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1304,7 +1304,7 @@
 					"$(SRCROOT)/../node_modules/react-native-facebook-login/RCTFBLogin/**",
 					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
 				);
-				INFOPLIST_FILE = DWT/Info.plist;
+				INFOPLIST_FILE = MomBoss/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
@@ -1314,11 +1314,11 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.scriptsbundle.DWT;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scriptsbundle.dwt;
 				PRODUCT_NAME = MomBoss;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = DWTDevelopment;
-				SWIFT_OBJC_BRIDGING_HEADER = "DWT-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "MomBoss-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1408,7 +1408,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DWT" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MomBoss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1417,7 +1417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DWT" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MomBoss" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

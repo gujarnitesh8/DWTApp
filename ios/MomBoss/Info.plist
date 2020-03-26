@@ -36,10 +36,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.scriptsbundle.DWT</string>
+			<string>com.scriptsbundle.MomBoss</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.scriptsbundle.DWT</string>
+				<string>com.scriptsbundle.MomBoss</string>
 			</array>
 		</dict>
 		<dict>
