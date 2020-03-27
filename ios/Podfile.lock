@@ -166,7 +166,7 @@ PODS:
   - GTMSessionFetcher/Core (1.3.1)
   - GTMSessionFetcher/Full (1.3.1):
     - GTMSessionFetcher/Core (= 1.3.1)
-  - lottie-ios (3.1.6)
+  - lottie-ios (3.1.5)
   - lottie-react-native (3.3.2):
     - lottie-ios (~> 3.1.3)
     - React
@@ -361,20 +361,20 @@ PODS:
   - React-jsinspector (0.61.2)
   - react-native-admob (2.0.0-beta.6):
     - React
-  - react-native-apple-authentication (1.0.6):
+  - react-native-apple-authentication (1.0.5):
     - React
-  - react-native-fbsdk (1.1.2):
+  - react-native-fbsdk (1.1.1):
     - React
-    - react-native-fbsdk/Core (= 1.1.2)
-    - react-native-fbsdk/Login (= 1.1.2)
-    - react-native-fbsdk/Share (= 1.1.2)
-  - react-native-fbsdk/Core (1.1.2):
+    - react-native-fbsdk/Core (= 1.1.1)
+    - react-native-fbsdk/Login (= 1.1.1)
+    - react-native-fbsdk/Share (= 1.1.1)
+  - react-native-fbsdk/Core (1.1.1):
     - FBSDKCoreKit (= 5.8)
     - React
-  - react-native-fbsdk/Login (1.1.2):
+  - react-native-fbsdk/Login (1.1.1):
     - FBSDKLoginKit (= 5.8)
     - React
-  - react-native-fbsdk/Share (1.1.2):
+  - react-native-fbsdk/Share (1.1.1):
     - FBSDKShareKit (= 5.8)
     - React
   - react-native-geolocation (2.0.2):
@@ -385,7 +385,7 @@ PODS:
     - React
   - react-native-maps (0.26.1):
     - React
-  - react-native-netinfo (4.7.0):
+  - react-native-netinfo (4.6.1):
     - React
   - react-native-simple-toast (0.1.1):
     - React
@@ -426,23 +426,23 @@ PODS:
     - React-cxxreact (= 0.61.2)
     - React-jsi (= 0.61.2)
     - ReactCommon/jscallinvoker (= 0.61.2)
-  - RNFirebase (5.6.0):
+  - RNFirebase (5.5.6):
     - Firebase/Core
     - React
-    - RNFirebase/Crashlytics (= 5.6.0)
-  - RNFirebase/Crashlytics (5.6.0):
+    - RNFirebase/Crashlytics (= 5.5.6)
+  - RNFirebase/Crashlytics (5.5.6):
     - Crashlytics
     - Fabric
     - Firebase/Core
     - React
-  - RNGestureHandler (1.6.0):
+  - RNGestureHandler (1.5.2):
     - React
-  - RNGoogleSignin (3.0.4):
+  - RNGoogleSignin (3.0.3):
     - GoogleSignIn (~> 5.0.0)
     - React
   - RNIap (3.5.9):
     - React
-  - RNImageCropPicker (0.26.2):
+  - RNImageCropPicker (0.26.1):
     - QBImagePickerController
     - React-Core
     - React-RCTImage
@@ -450,9 +450,9 @@ PODS:
   - RNPaypal (1.0.9):
     - PayPal-iOS-SDK
     - React
-  - RNReanimated (1.7.0):
+  - RNReanimated (1.4.0):
     - React
-  - RNScreens (2.0.0-beta.10):
+  - RNScreens (2.4.0):
     - React
   - RNVectorIcons (6.6.0):
     - React
@@ -529,7 +529,7 @@ DEPENDENCIES:
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga/Yoga.podspec`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - AppAuth
     - boost-for-react-native
     - CardIO
@@ -704,7 +704,7 @@ SPEC CHECKSUMS:
   GoogleUtilities: f8de7ddf8c706f58e9b405d53e38bbdaa2731e5a
   GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
   GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
-  lottie-ios: 85ce835dd8c53e02509f20729fc7d6a4e6645a0a
+  lottie-ios: 32bf84389337d86fbc8b12266e88452e0abf1dee
   lottie-react-native: 2a1a82bb326ae51331a5520de0cf706733c6db69
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   PayPal-iOS-SDK: 10654cd111e911a9807bddb96fae81aacb8e9915
@@ -712,7 +712,7 @@ SPEC CHECKSUMS:
   Protobuf: dd1aaea7140debfe4dd0683fb8ef208e527ae153
   QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
   RCTRequired: c639d59ed389cfb1f1203f65c2ea946d8ec586e2
-  RCTRestart: dd19aab87fc1118e05b6b5b91b959105647f56b4
+  RCTRestart: e8e3868a71dbec2cf8055fc2c0635db23c8c4479
   RCTTypeSafety: dc23fb655d6c77667c78e327bf661bc11e3b8aec
   React: 7e586e5d7bec12b91c1a096826b0fc9ab1da7865
   React-ART: 4893375cb803d3158fd2845ea9cdc33b535c5ff5
@@ -723,14 +723,14 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 8909917ff7d8f21a57e443a866fd8d4560e50c65
   React-jsinspector: 111d7d342b07a904c400592e02a2b958f1098b60
   react-native-admob: cb7f9e5e7d6f1e68bfbf1df8f72b2e23963bc7db
-  react-native-apple-authentication: f0317f01addb58a91cc8c1a2d41ca258ccf7eca0
-  react-native-fbsdk: c35d42169e64aaf66f01713c1e18d0674f7f6519
-  react-native-geolocation: c956aeb136625c23e0dce0467664af2c437888c9
+  react-native-apple-authentication: b9bf53db37563540a6a6b98b3609c75e1a81531d
+  react-native-fbsdk: b94a83971c496a35803f38b921aec6d637ba07b5
+  react-native-geolocation: cbd9d6bd06bac411eed2671810f454d4908484a8
   react-native-google-maps: 2e2e697dab576abd5809d78cd74e775865b62bf7
   react-native-maps: 6e499eee4eabf422ba8b6f94e993cc768bf35153
-  react-native-netinfo: ddaca8bbb9e6e914b1a23787ccb879bc642931c9
-  react-native-simple-toast: 1fc69d83c24279ed4f9624352551a5a3406678a2
-  react-native-webview: db4682f1698ab4b17a5e88f951031d203ff8aea8
+  react-native-netinfo: 16c6408c311572f17f9ffc3fa12614489307b6cf
+  react-native-simple-toast: 3e821c055485f03c6f6fa9b9431c1081ba46d37a
+  react-native-webview: 711cef318a554093b09a5b871894011435d87a8d
   React-RCTActionSheet: 89b037c0fb7d2671607cb645760164e7e0c013f6
   React-RCTAnimation: e3cefa93c38c004c318f7ec04b883eb14b8b8235
   React-RCTBlob: d26ac0e313fbf14e7203473fd593ccaaeee8329e
@@ -741,20 +741,20 @@ SPEC CHECKSUMS:
   React-RCTText: e3ef6191cdb627855ff7fe8fa0c1e14094967fb8
   React-RCTVibration: fb54c732fd20405a76598e431aa2f8c2bf527de9
   ReactCommon: 5848032ed2f274fcb40f6b9ec24067787c42d479
-  RNFirebase: 37daa9a346d070f9f6ee1f3b4aaf4c8e3b1d5d1c
-  RNGestureHandler: dde546180bf24af0b5f737c8ad04b6f3fa51609a
-  RNGoogleSignin: a00f87261ea13df9a5cea8deafa6927d6f2c3562
-  RNIap: 9e69c8d9ecfdd1f0882363366e85d2e1683ecc89
-  RNImageCropPicker: 9d1a7eea4f8368fc479cbd2bf26459bd3c74d9aa
+  RNFirebase: ac0de8b24c6f91ae9459575491ed6a77327619c6
+  RNGestureHandler: 946a7691e41df61e2c4b1884deab41a4cdc3afff
+  RNGoogleSignin: a10b849c165088c737d4465de6c2062f24d06002
+  RNIap: 52e1f99b63e7a6dfefdc8c0e3284f89763d8b271
+  RNImageCropPicker: e1d8c3381e5b05a1bdcd13ea57a4f1c020a09cef
   RNPaypal: 0ce417f93276f4feb022f71b366ef038c796ce7c
-  RNReanimated: 031fe8d9ea93c2bd689a40f05320ef9d96f74d7f
-  RNScreens: c596b54c3ab63b0390aa3cb081edd438147d40ae
+  RNReanimated: b2ab0b693dddd2339bd2f300e770f6302d2e960c
+  RNScreens: b5c0e1b2b04512919e78bd3898e144a157ce2363
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   RSKImageCropper: a446db0e8444a036b34f3c43db01b2373baa4b2a
   Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
-  tipsi-stripe: 61c247493a58d7e8e0bf6ee6b014271f473d2b11
+  tipsi-stripe: 3e0073c7eec0b2bfd1d1d5736d843c22e3024485
   Yoga: 14927e37bd25376d216b150ab2a561773d57911f
 
 PODFILE CHECKSUM: 27f0ec0209e6fa121a226a77164be86dbf93cb7a
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

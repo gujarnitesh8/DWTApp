@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04C21169242DAB4500D37578 /* bk_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 04C21168242DAB4500D37578 /* bk_ground.png */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -338,6 +339,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MomBossTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MomBossTests.m; sourceTree = "<group>"; };
 		032253A96965468092F86286 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		04C21168242DAB4500D37578 /* bk_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bk_ground.png; path = ../source/images/bk_ground.png; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MomBoss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomBoss.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -490,6 +492,7 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				04C21168242DAB4500D37578 /* bk_ground.png */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
@@ -1091,6 +1094,7 @@
 				18914F10237038860032D825 /* GoogleService-Info.plist in Resources */,
 				4F576506CAA14B11A64318BD /* FontAwesome.ttf in Resources */,
 				CB73DD3D2B854C5BB19BC0CF /* FontAwesome5_Brands.ttf in Resources */,
+				04C21169242DAB4500D37578 /* bk_ground.png in Resources */,
 				3A599FD090164F74AB22D2D5 /* FontAwesome5_Regular.ttf in Resources */,
 				1D7CE158D6DF44F0B90124E6 /* FontAwesome5_Solid.ttf in Resources */,
 				B860530B274848EEAE72C6F8 /* Fontisto.ttf in Resources */,
