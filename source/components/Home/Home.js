@@ -270,12 +270,12 @@ import LocalDB from '../../LocalDB/LocalDB';
                   <View style={{ marginHorizontal: 20, width: width(90), flexDirection: 'row', alignContent: 'center', alignItems: 'center' }}>
                     <Text style={{ marginVertical: 20, fontSize: 20, color: COLOR_PRIMARY, fontWeight: 'bold' }}>{home.featured_list_txt}</Text>
 
-                    {
+                    {/* {
                       home.sb_wpml_see_all_title != undefined ? [
                         <Text style={{ marginVertical: 20, fontSize: 10, color: COLOR_PRIMARY, fontWeight: 'bold', position: 'absolute', right: 0 }}>{home.sb_wpml_see_all_title}</Text>
 
                       ] : []
-                    }
+                    } */}
 
                   </View>
 
@@ -388,11 +388,11 @@ import LocalDB from '../../LocalDB/LocalDB';
                           ] : []
                         }
 
-                        {
+                        {/* {
                           home.sb_wpml_see_all_title != undefined ? [
                             <Text style={{ marginVertical: 20, fontSize: 10, color: store.settings.data.main_clr, fontWeight: 'bold', position: 'absolute', right: 0 }}>{home.sb_wpml_see_all_title}</Text>
                           ] : []
-                        }
+                        } */}
 
                       </View>
                     ] : []

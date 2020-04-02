@@ -104,6 +104,7 @@ export default class BlogDetail extends Component<Props> {
                 </View>
                 <View style={{ justifyContent: 'center', width: width(90), alignItems:'flex-start' }}>
                   <Text style={{ fontSize: totalSize(2), marginBottom: 5, fontWeight: 'bold', color: COLOR_SECONDARY }}>{detail.blog_title}</Text>
+                  {console.log(detail.desc,"detail.descdetail.desc")}
                   <HTMLView
                     value={detail.desc}
                     stylesheet={{
@@ -114,6 +115,9 @@ export default class BlogDetail extends Component<Props> {
                       // fontFamily: FONT_NORMAL,
                       // color: COLOR_GRAY,
                       textAlignVertical: 'center'
+                    }}
+                    renderNode={(test)=>{
+                      console.log(test,"testtest")
                     }}
                   />
                 </View>
