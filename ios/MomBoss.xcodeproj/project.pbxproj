@@ -1270,7 +1270,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mombossapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momboss;
 				PRODUCT_NAME = MomBoss;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1318,7 +1318,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mombossapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momboss;
 				PRODUCT_NAME = MomBoss;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
