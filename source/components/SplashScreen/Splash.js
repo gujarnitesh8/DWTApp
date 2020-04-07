@@ -10,7 +10,7 @@ import ApiController from '../../ApiController/ApiController';
 import NetInfo from "@react-native-community/netinfo";
 import RNRestart from 'react-native-restart'
 import LocalDb from '../../LocalDB/LocalDB';
-import firebase from 'react-native-firebase';
+// import firebase from 'react-native-firebase';
 
 @observer export default class Splash extends Component<Props> {
   constructor(props) {
@@ -67,7 +67,7 @@ import firebase from 'react-native-firebase';
     //console.warn("inside");
   
     let {orderStore} = Store;
-    const fcmToken = await firebase.messaging().getToken();
+    // const fcmToken = await firebase.messaging().getToken();
     // console.log('fcmtoken',fcmToken)
     // if (fcmToken) { 
     //   const userData = await LocalDb.getUserProfile();
