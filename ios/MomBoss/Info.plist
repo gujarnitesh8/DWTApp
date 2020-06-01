@@ -60,7 +60,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
 	<string>326690391441547</string>
 	<key>FacebookDisplayName</key>
@@ -84,13 +84,21 @@
 		<true/>
 		<key>NSAllowsLocalNetworking</key>
 		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>This app requires access to the camera.</string>
+	<string>Momboss app requires access to the camera to capture profile picture.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>MomBoss needs to access your location to find nearest events and listings</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>This app requires access to the photo library.</string>
+	<string>Momboss app requires access to the photo library.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Montserrat-SemiBold.ttf</string>
