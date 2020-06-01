@@ -37,29 +37,29 @@ class PublicEvents extends Component<Props> {
   componentWillMount = async () => {
     await this.getSearchList();
   }
-  componentDidMount = async() => {
-    await this.interstitial() 
+  componentDidMount = async () => {
+    await this.interstitial()
   }
-  interstitial = () => {        
+  interstitial = () => {
     let data = store.settings.data;
     try {
-      if ( data.has_admob && data.admob.interstitial !== '' ) {
-         AdMobInterstitial.setAdUnitID(data.admob.interstitial); //ca-app-pub-3940256099942544/1033173712
-         AdMobInterstitial.requestAd().then(() => AdMobInterstitial.showAd()); 
+      if (data.has_admob && data.admob.interstitial !== '') {
+        AdMobInterstitial.setAdUnitID(data.admob.interstitial); //ca-app-pub-3940256099942544/1033173712
+        AdMobInterstitial.requestAd().then(() => AdMobInterstitial.showAd());
       }
-    // InterstitialAdManager.showAd('636005723573957_636012803573249')
-    //   .then(didClick => console.log('response===>>>',didClick))
-    //   .catch(error => console.log('error===>>>',error)); 
+      // InterstitialAdManager.showAd('636005723573957_636012803573249')
+      //   .then(didClick => console.log('response===>>>',didClick))
+      //   .catch(error => console.log('error===>>>',error)); 
     } catch (error) {
-        console.log('catch===>>>',error);
+      console.log('catch===>>>', error);
     }
- }
- async UNSAFE_componentWillReceiveProps(props) {
-  // console.log('ok so I received', props)
-  this.getSearchList()
-}
+  }
+  async UNSAFE_componentWillReceiveProps(props) {
+    // console.log('ok so I received', props)
+    this.getSearchList()
+  }
 
- getSearchList = async () => {
+  getSearchList = async () => {
     let { params } = this.props.navigation.state;
     // if (this.state.search.length !== 0) {
     //   store.SEARCH_OBJ_EVENT.by_title = this.state.search;
@@ -67,13 +67,14 @@ class PublicEvents extends Component<Props> {
     // if(store.SEARCH_OBJ_EVENT.by_title.length==0){
     //   store.SEARCH_OBJ_EVENT.by_title = this.state.search
     // }
-    
+
     // else {
     //   store.SEARCH_OBJ_EVENT.by_title = this.state.search;
     // }
     // console.log('object==>>>', store.SEARCH_OBJ_EVENT);
 
     this.setState({ loading: true })
+    console.log(store.SEARCH_OBJ_EVENT, params, "store.SEARCH_OBJ_EVENT")
     try {
       let response = await ApiController.post('event-search', store.SEARCH_OBJ_EVENT);
       // console.log('PublicEvents===>>', response);

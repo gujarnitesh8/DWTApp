@@ -88,7 +88,8 @@ import { NavigationActions } from 'react-navigation';
             // containerStyle={styles.searchIcon}
             onPress={() => {
               // console.log('this props',this.props)
-              if (this.props.navigation.state.index == 14) {
+              // alert(this.props.navigation.state.index)
+              if (this.props.navigation.state.index == 15) {
                 store.SEARCH_OBJ_EVENT.by_title = this.state.searchtxt
                 const navigateAction = NavigationActions.navigate({
                   routeName: 'PublicEvents',
@@ -101,6 +102,7 @@ import { NavigationActions } from 'react-navigation';
                 this.props.navigation.dispatch(navigateAction);
 
               } else {
+                // alert("pe0")
                 Keyboard.dismiss()
                 store.SEARCHTEXT = this.state.searchtxt,
                   store.moveToSearchTXT = true

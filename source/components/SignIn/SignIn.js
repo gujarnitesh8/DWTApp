@@ -245,7 +245,7 @@ export default class SignIn extends Component<Props> {
                   <TouchableOpacity style={[styles.signUpBtn, { backgroundColor: orderStore.settings.data.main_clr }]} onPress={() => this.login()}>
                     <Text style={styles.signUpTxt}>{data.main_screen.sign_in}</Text>
                   </TouchableOpacity>
-                  <View style={styles.fgBtn}>
+                  {/* <View style={styles.fgBtn}>
                     {
                       true ?
                         <TouchableOpacity style={{ width: width(37.2), height: height(5), borderRadius: 3, backgroundColor: 'transparent', backgroundColor: '#134A7C', justifyContent: 'center', alignItems: 'center' }}
@@ -273,7 +273,7 @@ export default class SignIn extends Component<Props> {
                         null
                     }
 
-                  </View>
+                  </View> */}
                   <View style={{ flex: 1, alignContent: 'center', justifyContent: 'center' }}>
                     {!this.state.loading ? null :
                       <ActivityIndicator size={INDICATOR_SIZE} color={store.settings.data.navbar_clr} animating={true} hidesWhenStopped={true} />}
