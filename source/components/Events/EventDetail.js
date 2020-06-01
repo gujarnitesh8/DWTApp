@@ -16,6 +16,7 @@ import store from '../../Stores/orderStore';
 import styles from '../../../styles/Events/EventDetailStyleSheet';
 // import Slideshow from 'react-native-slideshow';
 import Toast from 'react-native-simple-toast';
+import RNCalendarEvents from 'react-native-calendar-events';
 @observer export default class EventDetail extends Component<Props> {
   constructor(props) {
     super(props);
@@ -31,6 +32,8 @@ import Toast from 'react-native-simple-toast';
       interval: null,
       data: [{ name: "Hotels" }, { name: "Hotels" }, { name: "Hotels" }, { name: "Hotels" }, { name: "Hotels" }, { name: "Hotels" }, { name: "Hotels" }, { name: "Hotels" }],
     }
+    RNCalendarEvents.authorizeEventStore()
+
   }
   static navigationOptions = ({ navigation }) => ({
     headerTitle: navigation.state.params.title,
@@ -46,7 +49,6 @@ import Toast from 'react-native-simple-toast';
   componentWillMount = async () => {
     // calling eventDetail func
     await this.eventDetail()
-
   }
   post_comment = async () => {
     this.setState({ is_comment: true })
@@ -186,9 +188,36 @@ import Toast from 'react-native-simple-toast';
                     <Image source={require('../../images/categoryName.png')} style={styles.rowIcon} />
                     <Text style={styles.tableText}>{eventDetail.event_detial.event_category_name}</Text>
                   </View>
-                  <View style={styles.middleRowCon}>
-                    <Image source={require('../../images/calendar.png')} style={styles.rowIcon} />
-                    <Text style={styles.tableText}>{eventDetail.event_detial.event_start_date} - {eventDetail.event_detial.event_end_date}</Text>
+                  <View style={[styles.middleRowCon, { justifyContent: 'space-between' }]}>
+                    <View style={{ flexDirection: 'row' }}>
+                      <Image source={require('../../images/calendar.png')} style={styles.rowIcon} />
+                      <Text style={styles.tableText}>{eventDetail.event_detial.event_start_date} - {eventDetail.event_detial.event_end_date}</Text>
+                    </View>
+                    <TouchableOpacity onPress={() => {
+                      RNCalendarEvents.authorizeEventStore().then(status => {
+                        if (status == 'authorized') {
+                          console.log(this.state, "this.state:", store.home.eventDetail.data.event_detial)
+                          let { event_detial } = store.home.eventDetail.data
+                          RNCalendarEvents.saveEvent(event_detial.event_title, {
+                            calendarId: event_detial.event_id,
+                            startDate: new Date(event_detial.event_start_date),
+                            endDate: new Date(event_detial.event_end_date),
+                            location: event_detial.event_author_location,
+                            notes: event_detial.event_desc
+                          }).then(data => {
+                            alert("Event added to your calendar!!")
+                          }, err => {
+
+                          })
+                        } else {
+                          RNCalendarEvents.authorizeEventStore().then(status => {
+
+                          })
+                        }
+                      })
+                    }} style={{ height: height(4), marginRight: 5, width: width(20), alignSelf: 'center', justifyContent: 'center', alignItems: 'center', borderRadius: 5, backgroundColor: data.main_clr }}>
+                      <Text style={{ color: 'white', fontSize: 10, textAlign: 'center' }}>Add to Calender</Text>
+                    </TouchableOpacity>
                   </View>
                   <View style={styles.timmerCon}>
                     <CountDown
@@ -358,7 +387,7 @@ import Toast from 'react-native-simple-toast';
                                       <ActivityIndicator size='small' color={COLOR_PRIMARY} animating={true} />
                                       :
                                       <Text style={styles.submitBtnText}>{'Post Comment/Ask Questions'}</Text>
-                                      // <Text style={styles.submitBtnText}>{eventDetail.comment_form.btn_submit}</Text>
+                                    // <Text style={styles.submitBtnText}>{eventDetail.comment_form.btn_submit}</Text>
                                   }
                                 </TouchableOpacity>
                             }
@@ -394,7 +423,7 @@ import Toast from 'react-native-simple-toast';
             enableSwipeDown={true}
           />
         </Modal>
-      </View>
+      </View >
     );
   }
 }

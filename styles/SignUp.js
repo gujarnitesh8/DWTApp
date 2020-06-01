@@ -7,7 +7,8 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'red'
+    width:'100%'
+    // backgroundColor: 'red'
   },
   imgCon: {
     flex: 1,

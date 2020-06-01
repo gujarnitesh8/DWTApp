@@ -19,6 +19,7 @@ import com.airbnb.android.react.lottie.LottiePackage;
 
 import io.invertase.firebase.RNFirebasePackage;
 
+import com.calendarevents.CalendarEventsPackage;
 
 
 //import com.agontuk.RNFusedLocation.RNFusedLocationPackage;
@@ -87,6 +88,7 @@ public class MainApplication extends Application implements ReactApplication {
             // new FBAdsPackage(),
             new RNIapPackage(),
             new RNPaypalPackage(),
+            new CalendarEventsPackage(),
             new StripeReactPackage(),
              new LottiePackage(),
             new RNGestureHandlerPackage(),
