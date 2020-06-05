@@ -236,7 +236,7 @@ import { widthPercentageToDP as wp } from '../../helpers/Responsive'
                 <TouchableOpacity style={[styles.signUpBtn, { backgroundColor: orderStore.settings.data.main_clr }]} onPress={() => this.register()} >
                   <Text style={styles.signUpTxt}>{data.main_screen.sign_up}</Text>
                 </TouchableOpacity>
-                <View style={styles.fgBtn}>
+                {/* <View style={styles.fgBtn}>
                   {
                     data.registerBtn_show.facebook ?
                       <TouchableOpacity style={styles.buttonCon}
@@ -261,7 +261,7 @@ import { widthPercentageToDP as wp } from '../../helpers/Responsive'
                       :
                       null
                   }
-                </View>
+                </View> */}
 
                 {/* <View style={{marginTop:wp('2')}}>
                 {SignInWithAppleButton(styles.appleBtn, this.appleSignIn)}
