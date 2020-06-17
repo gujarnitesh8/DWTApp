@@ -36,10 +36,10 @@
 		96F25E772281792C00905477 /* liblottie-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F25E762281792C00905477 /* liblottie-ios.a */; };
 		96FD6CC8223299E40061DD1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FD6CC7223299E30061DD1B /* Images.xcassets */; };
 		B860530B274848EEAE72C6F8 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC88F0F755D64506ACC1A266 /* Fontisto.ttf */; };
+		BCEF4C61FB914E5FBA05DD81 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C3EDAABF9B44B619D0B084A /* Quicksand-Bold.ttf */; };
 		CB73DD3D2B854C5BB19BC0CF /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFB1530767744F699BFFBB67 /* FontAwesome5_Brands.ttf */; };
 		F0B61256A4EF459697140835 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 032253A96965468092F86286 /* MaterialIcons.ttf */; };
 		FC979E609F284FB5B449BEEC /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B39DC9DD74B9406E8D570278 /* SimpleLineIcons.ttf */; };
-		BCEF4C61FB914E5FBA05DD81 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C3EDAABF9B44B619D0B084A /* Quicksand-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -377,6 +377,7 @@
 		96962EA122E1EE00002A2402 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		96F25E762281792C00905477 /* liblottie-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FD6CC7223299E30061DD1B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C3EDAABF9B44B619D0B084A /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Quicksand-Bold.ttf"; path = "../res/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; };
 		A6E32521A01F9F914EEF5EDC /* Pods-MomBoss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomBoss.release.xcconfig"; path = "Pods/Target Support Files/Pods-MomBoss/Pods-MomBoss.release.xcconfig"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		AFB1530767744F699BFFBB67 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
@@ -387,7 +388,6 @@
 		E71AAA54E79A4A83A626EEAD /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		EA4FAAA70758415896B609E4 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		FC88F0F755D64506ACC1A266 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		9C3EDAABF9B44B619D0B084A /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; name = "Quicksand-Bold.ttf"; path = "../res/fonts/Quicksand-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1249,7 +1249,7 @@
 				CODE_SIGN_ENTITLEMENTS = MomBoss/MomBoss.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 4H57SNF829;
 				ENABLE_BITCODE = NO;
@@ -1270,7 +1270,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -1298,7 +1298,7 @@
 				CODE_SIGN_ENTITLEMENTS = MomBoss/MomBoss.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 4H57SNF829;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1318,7 +1318,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.2;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
